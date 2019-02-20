@@ -1,0 +1,642 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Oswald";
+  font-size: 16px;
+  font-weight: 300;
+  color: #707070;
+  min-width: 320px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+h5 {
+  color: #515151;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+hr {
+  background: #ffe600;
+  height: 2px;
+  width: 170px;
+}
+
+.header {
+  background: url("../img/howwedobg.jpg") center center;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.menu-top .nav-link {
+  text-transform: uppercase;
+  color: #ffffff !important;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.menu-top,
+.fixed-top  {
+  background: rgba(19, 19, 22, 0.3);
+}
+
+.menu-top .nav-item {
+  list-style: square;
+  color: #ffe600;
+  margin: 0 12px;
+}
+.menu-top .nav-link::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: #ffe600;
+  width: 0;
+  transition: 1s;
+  margin: auto;
+}
+.menu-top .nav-link:hover::after {
+  width: 100%;
+}
+.menu-top .nav-link:hover {
+  color: #ffe600 !important;
+}
+.menu-top .nav-item .active {
+  color: #ffe600 !important;
+}
+
+.menu-top .nav-item:first-child {
+  list-style: none;
+}
+
+.title h1 {
+  font-weight: 700;
+  font-size: 65px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.title .btn {
+  background: #ffe600;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 0;
+  padding: 12px 50px;
+  margin-top: 20px;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+}
+
+.service {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.service .serpad {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.service h4 {
+  font-weight: 700 !important;
+  color: #131316 !important;
+  font-size: 20px;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.service .circle {
+  width: 105px;
+  height: 105px;
+  background: #ffe600;
+  border-radius: 50%;
+  margin: auto;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+
+.service .circle img {
+  margin-top: 30px;
+}
+.service .circle:hover {
+  background: #ffffff;
+  color: #ffe600;
+  border: 1px solid #000000;
+  transition: 0.5s;
+}
+
+.doit {
+  padding-top: 65px;
+  padding-bottom: 70px;
+  background: url("../img/howwedobg.jpg") center center;
+  background-size: cover;
+  color: #ffffff;
+  background-attachment: fixed;
+}
+.doit h4 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.doit h3 {
+  color: #ffe600;
+  margin-bottom: 10px;
+}
+.doit img {
+  transition: 500ms;
+}
+.doit img:hover {
+  transform: rotate(360deg);
+}
+.works {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.works h3 {
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+.works h4 {
+  color: #515151;
+  margin-bottom: 15px;
+}
+.works .btn {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Oswald";
+  font-weight: 700;
+  background: #ffe600;
+}
+.works .fa {
+  color: #ffe600;
+  margin-bottom: 334px;
+}
+.tab-pane p {
+  font-size: 15px;
+}
+.works .nav {
+  justify-content: center;
+  margin-bottom: 45px;
+}
+.works .nav .nav-link {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  color: #515151;
+}
+.works .nav .nav-link:hover {
+  color: #ffe600;
+}
+.works .tab-pane .row {
+  align-items: center;
+}
+.works .nav .nav-link::after {
+  content: " ";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #ffe600;
+  transform: translate(15px, -5px);
+}
+.contact .btn {
+  background: #ffe600;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Oswald";
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  padding: 10px 25px;
+}
+.contact .down {
+  padding: 10px 20px;
+}
+.contact .btn .fa {
+  font-size: 25px;
+}
+.contact p {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.numbers {
+  background: #131a1d;
+  padding-bottom: 40px;
+}
+.numbers .words h3 {
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.numbers .words p {
+  color: #ffffff;
+}
+.numbers .nums h3 {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Oswald";
+  color: #ffffff;
+}
+.numbers .nums p {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Oswald";
+  color: #ffe600;
+  text-transform: uppercase;
+}
+.numbers .nums {
+  border: 1px solid #ffe600;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  max-width: 265px;
+}
+.numbs {
+  justify-content: space-between;
+}
+.abus .abus1 {
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.abus .abus1 h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.abus .abus2 {
+  display: flex;
+  margin-top: 30px;
+}
+.abus .abus2 .abcir {
+  background: #ffe600;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  line-height: 90px;
+  text-align: center;
+  margin: auto;
+}
+.abus .abus2 h5 {
+  font-size: 16px;
+}
+.abus .abus2 p {
+  font-size: 15px;
+}
+.abus .abus3 {
+  margin-bottom: 20px;
+}
+.abus .abus3 h3 {
+  margin-bottom: 15px;
+  margin-top: 90px;
+}
+.abus .abus4 {
+  text-align: center;
+  margin-top: 10px;
+}
+.abus .abus4 h5 {
+  color: #ffe600;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.abus .abus4 hr {
+  width: 100%;
+  height: 1px;
+  background: none;
+}
+.abus .abus4 p {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.me {
+  background: #131316;
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+.me h4 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Oswald";
+  color: #ffe600;
+  text-transform: uppercase;
+}
+.me p {
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.me .fa-twitter {
+  border: 1px solid #ffffff;
+  font-size: 20px;
+  padding: 10px 12px;
+}
+.me .fa-facebook {
+  border: 1px solid #ffffff;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin-right: 15px;
+}
+.me .fa-times {
+  font-size: 20px;
+  position: absolute;
+  top: 3%;
+  right: 23px;
+}
+.skills {
+  background: #131a1d;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.skills h3 {
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+.skills p {
+  color: #ffffff;
+}
+.skills .cir {
+  width: 143px;
+  height: 144px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  padding-top: 45px;
+  padding-left: 4px;
+  margin: auto;
+}
+.skills .cir p {
+  font-size: 35px;
+  color: #ffe600;
+  margin: 0;
+  display: inline;
+}
+.skills h4 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffe600;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.clients {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.clients .clp1 {
+  margin-bottom: 20px;
+}
+.clients .clp2 {
+  margin-bottom: 20px;
+}
+.crsl {
+  background: #131a1d;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.crsl .carousel-item .big {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+.crsl .carousel-item .small {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.crsl .carousel-indicators {
+  top: 105%;
+}
+.crsl .carousel-indicators li {
+  width: 4px;
+  height: 4px;
+  background: #ffffff;
+}
+.crsl .carousel-indicators li.active {
+  background: #ffe600;
+}
+.findus {
+  padding-top: 45px;
+  padding-bottom: 35px;
+}
+.findus .sr {
+  font-weight: 400;
+  font-size: 20px;
+  color: #131316;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.findus .jr {
+  font-size: 20px;
+  color: #515151;
+  margin-bottom: 0;
+}
+.send {
+  background: #131a1d;
+  padding: 35px 0 65px 0;
+}
+.send h3 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.send p {
+  color: #ffffff;
+}
+.send input {
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  padding: 15px 0 15px 20px;
+}
+.send .inp {
+  padding-top: 30px;
+}
+.send .inp .big {
+  height: 221px;
+}
+.send .btn {
+  background: #ffe600;
+  text-transform: uppercase;
+  border-radius: 0;
+  color: #161f32;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+.footer {
+  background: #131316;
+  padding-top: 20px;
+}
+.footer p {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.footer span {
+  color: #ffe600;
+}
+.footer img {
+  margin-right: 15px;
+}
+.footer img:nth-last-child(1) {
+  margin-right: 0;
+}
+.footer .btn {
+  background: #ffe600;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Oswald";
+  border-radius: 0;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.footer .fa {
+  font-size: 25px;
+}
+.owl-stage .active div {
+  max-width: 100%;
+  padding: 0;
+}
+.owl-dots {
+  display: none;
+}
+@media (max-width: 1199px) {
+  .numbers .nums {
+    max-width: 215px;
+  }
+}
+
+@media (max-width: 991px) {
+  .title {
+    top: 68%;
+  }
+  .title h1 {
+    font-size: 40px;
+  }
+  .menu-top .nav-item:first-child {
+    list-style: square;
+  }
+  .tab-pane {
+    text-align: center;
+  }
+  .tab-pane h4 {
+    margin-top: 20px;
+  }
+  .menu-top .nav-link::after {
+    margin: unset;
+  }
+  .menu-top .nav-link:hover::after {
+    width: 9%;
+  }
+  .abus .abus4 hr {
+    width: 50%;
+  }
+  .skills .skm {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .title h1 {
+    font-size: 45px;
+  }
+
+  .title .btn {
+    padding: 9px 35px;
+    font-size: 17px;
+  }
+
+  .title {
+    top: 67%;
+  }
+  .menu-top .nav-link:hover::after {
+    width: 12%;
+  }
+  .numbers .nums {
+    margin-bottom: 25px;
+  }
+  .numbers {
+    padding-bottom: 20px;
+  }
+  .abus2 {
+    align-items: center;
+  }
+  .abus .abus4 hr {
+    width: 40%;
+  }
+  .crsl .carousel-item .big {
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .crsl .carousel-item .small {
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+  }
+}
+@media (max-width: 575px) {
+  .skills .skm1 {
+    margin-bottom: 25px;
+  }
+  .crsl .carousel-item .big {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .send .inp .inpmt {
+    margin-top: 20px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 429px) {
+  .numbs {
+    justify-content: center;
+  }
+  .abus .abus2 h5 {
+    font-size: 14px;
+  }
+  .abus .abus2 p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .title h1 {
+    font-size: 35px;
+  }
+
+  .title .btn {
+    padding: 6px 25px;
+    font-size: 13px;
+  }
+
+  .title {
+    top: 73%;
+  }
+}
+@media (max-width: 375px) {
+  .title h1 {
+    font-size: 28px;
+  }
+  .title {
+    top: 76%;
+  }
+}
